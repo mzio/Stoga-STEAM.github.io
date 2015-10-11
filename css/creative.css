@@ -94,7 +94,7 @@ aside {
     text-transform: uppercase;
     font-family: 'Roboto',sans-serif;
     font-weight: 400;
-    color: #ffffff;
+    color: #222;
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
@@ -107,7 +107,7 @@ aside {
     text-transform: uppercase;
     font-size: 13px;
     font-weight: 400;
-    color: #ffffff;
+    color: #222;
 }
 
 .navbar-default .nav > li>a:hover,
