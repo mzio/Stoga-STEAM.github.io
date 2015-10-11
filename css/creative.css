@@ -85,6 +85,7 @@ aside {
 .navbar-default {
     font-family: 'Roboto',sans-serif;
     background-color: #fff;
+    border-color: transparent;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -326,7 +327,7 @@ header .header-content .header-content-inner p {
 }
 
 .text-primary {
-    color: #f05f40;
+    color: #007FFF;
 }
 
 .no-gutter > [class*=col-] {
