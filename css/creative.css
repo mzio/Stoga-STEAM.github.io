@@ -43,6 +43,10 @@ h1 {
     font-weight: 700;
     text-transform: uppercase;
 }
+.h1-STEAM {
+    font-size: 5em;
+}
+
 h2,
 h3,
 h4,
@@ -333,6 +337,11 @@ header .header-content .header-content-inner p {
 .no-gutter > [class*=col-] {
     padding-right: 0;
     padding-left: 0;
+}
+.btn-div{
+    width:5px;
+    height:auto;
+    display:inline-block;
 }
 
 .btn-default {
