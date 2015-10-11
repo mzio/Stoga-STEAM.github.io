@@ -388,9 +388,9 @@ fieldset[disabled] .btn-default.active {
 }
 
 .btn-primary {
-    border-color: #f05f40;
+    border-color: #fff;
     color: #fff;
-    background-color: #f05f40;
+    background: transparent;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -441,11 +441,10 @@ fieldset[disabled] .btn-primary.active {
 }
 
 .btn {
-    border: 0;
-    border-radius: 300px;
+    border-width: 2px;
     text-transform: uppercase;
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
-    font-weight: 700;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
 }
 
 .btn-xl {
