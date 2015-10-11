@@ -151,7 +151,7 @@ aside {
     }
 
     .navbar-default.affix {
-        border-color: rgba(34,34,34,.05);
+        border-color: rgba(34,34,34,0);
         background-color: #fff;
     }
 
