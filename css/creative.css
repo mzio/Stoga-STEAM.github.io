@@ -12,6 +12,7 @@ body {
 
 body {
     font-family: 'Roboto',sans-serif;
+    font-weight: 400;
 }
 
 hr {
@@ -42,7 +43,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Roboto','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Roboto',Arial,sans-serif;
 }
 
 p {
@@ -78,7 +79,7 @@ aside {
 
 .navbar-default {
     border-color: rgba(34,34,34,.05);
-    font-family: 'Roboto','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Roboto',Arial,sans-serif;
     background-color: #fff;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
