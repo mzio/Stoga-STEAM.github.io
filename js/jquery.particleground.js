@@ -101,10 +101,39 @@
     function styleCanvas() {
       canvas.width = element.offsetWidth;
       canvas.height = element.offsetHeight;
-      ctx.fillStyle = options.dotColor;
-      ctx.strokeStyle = options.lineColor;
+
+      /**
+     * Pick particle color
+     */
+      var x = Math.floor(Math.random()*7);
+        if (x == 0) {
+          ctx.fillStyle = options.dotColor1;
+          ctx.strokeStyle = options.lineColor1;
+        }
+        else if (x == 1) {
+          ctx.fillStyle = options.dotColor2;
+          ctx.strokeStyle = options.lineColor2;
+        }
+        else if (x == 2) {
+          ctx.fillStyle = options.dotColor3;
+          ctx.strokeStyle = options.lineColor3;
+        }
+        else if (x == 3) {
+          ctx.fillStyle = options.dotColor4;
+          ctx.strokeStyle = options.lineColor4;
+        }
+        else if (x == 4) {
+          ctx.fillStyle = options.dotColor5;
+          ctx.strokeStyle = options.lineColor5;
+        }
+        else if (x == 5) {
+          ctx.fillStyle = options.dotColor6;
+          ctx.strokeStyle = options.lineColor6;
+        }
+      
       ctx.lineWidth = options.lineWidth;
     }
+
 
     /**
      * Draw particles
@@ -125,6 +154,9 @@
       // Draw particles
       for (var i = 0; i < particles.length; i++) {
         particles[i].draw();
+
+        
+      
       };
 
       // Call this function next time screen is redrawn
@@ -380,8 +412,18 @@
     directionX: 'center', // 'center', 'left' or 'right'. 'center' = dots bounce off edges
     directionY: 'center', // 'center', 'up' or 'down'. 'center' = dots bounce off edges
     density: 10000, // How many particles will be generated: one particle every n pixels
-    dotColor: '#666666',
-    lineColor: '#666666',
+    dotColor1: '#ff0000',
+    dotColor2: '#ffa500',
+    dotColor3: '#ffff00',
+    dotColor4: '#00af33',
+    dotColor5: '#007fff',
+    dotColor6: '#9932cc',
+    lineColor1: '#ff0000',
+    lineColor2: '#ffa500',
+    lineColor3: '#ffff00',
+    lineColor4: '#00af33',
+    lineColor5: '#007fff',
+    lineColor6: '#9932cc',
     particleRadius: 7, // Dot size
     lineWidth: 1,
     curvedLines: false,
