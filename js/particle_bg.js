@@ -4,7 +4,7 @@
  */
 
 document.addEventListener('DOMContentLoaded', function () {
-  particleground(document.getElementById('particles'), {
+  particleground(document.getElementById('header-particles'), {
     dotColor: '#5cbdaa',
     lineColor: '#5cbdaa'
   });
