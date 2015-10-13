@@ -166,6 +166,7 @@ aside {
 
     .navbar-default.affix {
         background-color: #fff;
+        border-bottom-color:#007FFF;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand {
