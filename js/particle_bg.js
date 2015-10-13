@@ -12,7 +12,6 @@ document.addEventListener('DOMContentLoaded', function () {
   intro.style.marginTop = - intro.offsetHeight / 2 + 'px';
 }, false);
 
-
 /*
 // jQuery plugin example:
 $(document).ready(function() {

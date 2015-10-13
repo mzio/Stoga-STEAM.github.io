@@ -47,7 +47,9 @@ h1 {
     top: 25%;
 }
 
-h2,
+h2 {
+    font-size:5em;
+}
 h3,
 h4,
 h5,
@@ -61,6 +63,10 @@ p {
     line-height: 1.5;
 }
 
+p.project-steam-info {
+    font-size:17px;
+}
+
 .bg-primary {
     background-color: #007FFF;
 }
@@ -70,8 +76,11 @@ p {
     background-color: #222;
 }
 
-.text-faded {
+.text-faded-w {
     color: rgba(255,255,255,.9);
+}
+.text-faded-b {
+    color: rgba(0,0,0,.9);
 }
 
 section {
@@ -254,7 +263,7 @@ header .header-content .header-content-inner p {
     header #intro {
         -webkit-transform: translateY(+50%);
         -ms-transform: translateY(+50%);
-        transform: translateY(-75%);
+        transform: translateY(-100%);
     }
 }
 
@@ -341,8 +350,15 @@ header .header-content .header-content-inner p {
     margin: 0 auto 20px;
 }
 
+#arrow {
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+    color: #fff;
+}
+
 .text-primary {
-    color: #007FFF;
+    color: #222;
 }
 
 .no-gutter > [class*=col-] {
@@ -372,7 +388,7 @@ header .header-content .header-content-inner p {
 .open > .dropdown-toggle.btn-default {
     border-color: #ededed;
     color: #222;
-    background-color: #f2f2f2;
+    background-color: #fff;
 }
 
 .btn-default:active,
